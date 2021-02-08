@@ -70,14 +70,16 @@ class MeasureFormantNode(VoicelabNode):
 
             # Generate max_formant parameter
             self.args["max_formant"] = self.formant_max(sound)
+            formant_path_object = call(sound, "To FormantPath (burg)", 0.005, 5, self.args["max_formant"], 0.025, 50.0, 0.025, 5)
+            formant_object = call(formant_path_object, "Extract Formant")
 
-            formant_object = sound.to_formant_burg(
-                self.args["time step"],
-                self.args["max number of formants"],
-                self.args["max_formant"],
-                self.args["window length(s)"],
-                self.args["pre emphasis from"],
-            )
+            #formant_object = sound.to_formant_burg(
+            #    self.args["time step"],
+            #    self.args["max number of formants"],
+            #    self.args["max_formant"],
+            #    self.args["window length(s)"],
+            #    self.args["pre emphasis from"],
+            #)
 
             f1_mean = call(formant_object, "Get mean", 1, 0, 0, "Hertz")
             f2_mean = call(formant_object, "Get mean", 2, 0, 0, "Hertz")

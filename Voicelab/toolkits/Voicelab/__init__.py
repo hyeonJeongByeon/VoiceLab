@@ -4,6 +4,7 @@ from .LoadVoicesNode import LoadVoicesNode
 # TODO: Output Nodes
 
 # Measure Nodes
+from .MeasureSHRPNode import MeasureSHRPNode
 from .MeasureDurationNode import MeasureDurationNode
 from .MeasureIntensityNode import MeasureIntensityNode
 from .MeasureFormantNode import MeasureFormantNode
@@ -21,7 +22,7 @@ from .MeasureFormantPositionsNode import MeasureFormantPositionsNode
 from .MeasureLTASNode import MeasureLTASNode
 from .MeasureSpectralShapeNode import MeasureSpectralShapeNode
 from .TEVANode import TEVANode
-#from .MeasurePitchYinNode import MeasurePitchYinNode
+from .MeasurePitchYinNode import MeasurePitchYinNode
 from .MeasurePitchCrepeNode import MeasurePitchCrepeNode
 
 # Manipulate Nodes
@@ -39,3 +40,6 @@ from .ReverseSoundsNode import ReverseSoundsNode
 
 # Visualization Nodes
 from .VisualizeVoiceNode import VisualizeVoiceNode
+
+# Experimental Nodes
+from .F1F2PlotNode import F1F2PlotNode
