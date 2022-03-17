@@ -335,7 +335,7 @@ NJ: Prentice Hall.
 ### VTL Δf
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=f_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_i" title="f_i" /></a> = The slope of 0 intercept regression between
-https://latex.codecogs.com/svg.image?F_i&space;=&space;\frac{(2i-1)}{2}\Delta&space;f and the mean of each of the first 4 formant
+<a href="https://latex.codecogs.com/svg.image?F_i&space;=&space;\frac{(2i-1)}{2}\Delta&space;f" /></a> and the mean of each of the first 4 formant
 frequencies.
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=VTL&space;f_i&space;=&space;\frac&space;{\sum&space;_{i=1}^{n}&space;(2n-1)(\frac&space;{c}{4f_i})}{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?VTL&space;f_i&space;=&space;\frac&space;{\sum&space;_{i=1}^{n}&space;(2n-1)(\frac&space;{c}{4f_i})}{n}" title="VTL f_i = \frac {\sum _{i=1}^{n} (2n-1)(\frac {c}{4f_i})}{n}" /></a>
